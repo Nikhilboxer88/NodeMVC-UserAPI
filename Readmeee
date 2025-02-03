@@ -1,0 +1,104 @@
+NodeMVC-UserAPI
+
+A simple Model-View-Controller (MVC) architecture-based REST API using Node.js, Express.js, and MongoDB. This API allows users to Create (POST), Read (GET), Update (PUT), and Delete (DELETE) users. The API is tested using Postman and provides a structured and scalable backend solution.
+
+Features
+
+Follows MVC pattern for better code organization
+
+Uses MongoDB as the database
+
+CRUD operations using Express.js and Mongoose
+
+API tested via Postman
+
+Installation
+
+Clone the repository:
+
+
+Navigate to the project directory:
+
+cd NodeMVC-UserAPI
+
+Install dependencies:
+
+npm install
+
+Set up environment variables:
+
+Create a .env file in the root directory
+
+Add the following variables:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+
+Usage
+
+Start the server:
+
+npm start
+
+Use Postman or any API client to test the endpoints:
+
+API Endpoints
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/api/users
+
+Get all users
+
+GET
+
+/api/users/:id
+
+Get a single user
+
+POST
+
+/api/users
+
+Create a new user
+
+PUT
+
+/api/users/:id
+
+Update an existing user
+
+DELETE
+
+/api/users/:id
+
+Delete a user
+
+Technologies Used
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+Postman (for API testing)
+
+Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+License
+
+This project is licensed under the MIT License.
+
+nikhil dhaka
+
